@@ -1,15 +1,7 @@
 package Net::Async::SPORE::Loader;
-$Net::Async::SPORE::Loader::VERSION = '0.001';
+$Net::Async::SPORE::Loader::VERSION = '0.002';
 use strict;
 use warnings;
-
-use Net::Async::SPORE::Request;
-use Net::Async::SPORE::Definition;
-
-use JSON::MaybeXS;
-use File::Spec;
-
-sub inject_method(&@);
 
 =head1 NAME
 
@@ -17,7 +9,7 @@ Net::Async::SPORE::Loader - loads SPORE API definitions
 
 =head1 VERSION
 
-Version 0.001
+Version 0.002
 
 =head1 SYNOPSIS
 
@@ -31,6 +23,16 @@ Version 0.001
 =head1 DESCRIPTION
 
 This is the API loader class. It'll read in definitions and create classes in memory.
+
+=cut
+
+use Net::Async::SPORE::Request;
+use Net::Async::SPORE::Definition;
+
+use JSON::MaybeXS;
+use File::Spec;
+
+sub inject_method(&@);
 
 =head1 METHODS
 
