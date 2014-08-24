@@ -3,7 +3,7 @@ package Net::Async::SPORE;
 use strict;
 use warnings;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ Net::Async::SPORE - IO::Async support for the portable REST specification
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 DESCRIPTION
 

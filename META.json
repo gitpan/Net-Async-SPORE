@@ -46,6 +46,7 @@
       },
       "test" : {
          "requires" : {
+            "Dir::Self" : "0",
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
@@ -63,6 +64,6 @@
       },
       "homepage" : "http://search.cpan.org/dist/Net-Async-SPORE/"
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
 

@@ -1,5 +1,5 @@
 package Net::Async::SPORE::Loader;
-$Net::Async::SPORE::Loader::VERSION = '0.002';
+$Net::Async::SPORE::Loader::VERSION = '0.003';
 use strict;
 use warnings;
 
@@ -9,7 +9,7 @@ Net::Async::SPORE::Loader - loads SPORE API definitions
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =head1 SYNOPSIS
 
